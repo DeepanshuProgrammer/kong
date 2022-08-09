@@ -1815,6 +1815,7 @@ return {
           balancer_data.balancer_handle:release()
         end
       end
+      balancer.log(balancer_data, ctx)
     end
   }
 }
