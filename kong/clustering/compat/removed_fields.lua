@@ -1,4 +1,10 @@
 return {
+  -- Any dataplane older than 3.2.0
+  [3002000000] = {
+    rate_limiting = {
+      "sync_rate",
+    }
+  },
   -- Any dataplane older than 3.1.0
   [3001000000] = {
     -- OSS
