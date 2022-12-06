@@ -68,6 +68,13 @@
 
 ## Unreleased
 
+### Additions
+
+#### Plugins
+
+- **AWS Lambda**: support scheme config on lambda service api endpoint
+  [#9799](https://github.com/Kong/kong/pull/9799)
+
 ### Fixes
 
 #### Plugins
