@@ -70,6 +70,11 @@
 
 ### Fixes
 
+#### Core
+
+- **Template**: not add default charset when upstream response doesn't contain it.
+  [#9905](https://github.com/Kong/kong/pull/9905)
+
 #### Plugins
 
 - **Zipkin**: Fix an issue where the global plugin's sample ratio overrides route-specific.
