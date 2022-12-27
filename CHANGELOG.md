@@ -94,6 +94,8 @@
 
 - **Zipkin**: Fix an issue where the global plugin's sample ratio overrides route-specific.
   [#9877](https://github.com/Kong/kong/pull/9877)
+- **Oauth2**: forbid an authorization code can be exchanged to access_token in different plugin instance.
+  [#10011](https://github.com/Kong/kong/pull/10011)
 
 #### Core
 
