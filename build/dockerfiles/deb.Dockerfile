@@ -1,4 +1,4 @@
-ARG KONG_BASE_IMAGE=debian:bullseye-slim
+ARG KONG_BASE_IMAGE=debian:11.6-slim
 FROM $KONG_BASE_IMAGE
 
 LABEL maintainer="Kong Docker Maintainers <docker@konghq.com> (@team-gateway-bot)"
