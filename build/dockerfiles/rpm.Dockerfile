@@ -1,4 +1,4 @@
-ARG KONG_BASE_IMAGE=redhat/ubi8
+ARG KONG_BASE_IMAGE=redhat/ubi8:8.9-1107.1705420509
 FROM $KONG_BASE_IMAGE
 
 LABEL maintainer="Kong Docker Maintainers <docker@konghq.com> (@team-gateway-bot)"
